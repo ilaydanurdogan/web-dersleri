@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>İlayda'nın 2.projesi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="padding-bottom: 500px;">
+    <form action='https://google.com/search' method="get">
+        <input type="text" placeholder="kullanıcı adı" name="q"><br><br>
+        <input type="password" placeholder="parolanız" name="parola"><br><br>
+        <input type="number" placeholder="T.C kimlik numaranız" name="yas"><br><br>
+        <p>Aşağıdan bir tane seçiniz</p>
+        <input type="radio" name="renk" id="renk1"><label for="renk1">kırmızı</label> <br>
+        <input type="radio" name="renk" id="renk2" checked="checked"><label for="renk2">sarı</label> <br>
+        <input type="radio" name="renk" id="renk3"><label for="renk3">yeşil</label> <br>
+        <input type="radio" name="renk" id="renk4"><label for="renk4">mavi</label> <br>
+        <p>Aşağıdakilerden birkaç meyveyi seçiniz</p>
+        <input type="checkbox" name="secenek1" id="sec1"><label for="sec1">elma</label> <br>
+        <input type="checkbox" name="secenek2" id="sec2"><label for="sec2">armut</label> <br>
+        <input type="checkbox" name="secenek3" id="sec3"><label for="sec3">kivi</label> <br>
+
+        <p>Aşağıdan tarih seçiniz</p>
+        <input type="date" name="tarih">
+
+        <p>Aşağıdan tarih ve saati seçiniz</p>
+        <input type="datetime-local" name="tarih">
+
+        <p>Aşağıya bir dosya yükleyiniz</p>
+        <input type="file" name="resim" accept="image/png">
+
+        <p>Telefon numaranız</p>
+        <input type="tel" name="telefon">
+        
+        <p>Yazı yazabilirsiniz</p>
+        <textarea name="yazılacak alan" style="width: 300px ; height: 100px;"></textarea>
+
+        <p>Aşağıdan bir il seçınız</p>
+        <select name="secim">
+            <option>Birini seçiniz</option>
+            <option value="Yalova">Yalova</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="Kocaeli">Kocaeli</option>
+            <option value="Bolu">Bolu</option>
+            <option value="Diyarbakir">Diyarbakır</option>
+        </select>
+        <br>
+        <input type="submit" name="gonder" value="Gönder">
+        <button type="button" name="gonder2">Gönder</button>
+        <br><br>
+        <button type="reset">Sıfırla</button>
+    </form>
+</body>
+</html>

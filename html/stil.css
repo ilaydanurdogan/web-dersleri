@@ -1,0 +1,12 @@
+.yazi{
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.kutu{
+    width: 900px;
+    height: 750px;
+    background-color: hotpink;
+    text-align: center;
+}
