@@ -1,0 +1,12 @@
+.uc{
+    width: 400px;
+    min-height: 200px;
+    border: 10px solid #f00;
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.uc > h3{
+    text-align: center;
+}

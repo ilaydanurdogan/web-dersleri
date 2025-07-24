@@ -1,0 +1,45 @@
+body{
+    padding-bottom: 2000px;
+}
+
+
+.ust-kutu{
+    width: 1000px;
+    height: 800px;
+    border: 10px solid rgb(131, 15, 131);
+}
+
+.alt-kutu1, .alt-kutu2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.alt-kutu1{
+    background-color: rgb(212, 35, 195);
+}
+
+.alt-kutu2{
+    background-color: rgba(255, 0, 230, 0.5);
+    top: 50px;
+    left: 50px;
+    display: block;
+    color: #fff;
+    padding: 20px 0 0 20px;
+    border: 5px solid #f0f;
+    border-radius: 30px 30px 2px 2px;
+}
+
+/* .font-deneme{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration-line: underline;
+    font-style: italic;
+    font-weight: 100;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    transition: .5s ease;
+    cursor: pointer;
+
+    position: absolute;
+} */

@@ -1,0 +1,23 @@
+.st{
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-right: 1px solid #f00;
+}
+
+img.st{
+    border: 1px solid #00f;
+}
+
+.sti{
+    width: 200px;
+    height: 100px;
+}
+
+.deneme{
+    background-color: #f00;
+}
+
+#st{
+    border: 1px solid #000;
+}

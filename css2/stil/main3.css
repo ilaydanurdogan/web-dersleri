@@ -1,0 +1,9 @@
+.resim{
+    width: 100px;
+    height: auto;
+    transition: .5s ease;
+}
+
+.resim:hover{
+    width: 300px;
+}

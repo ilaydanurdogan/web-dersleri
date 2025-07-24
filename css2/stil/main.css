@@ -1,0 +1,52 @@
+.kutu{
+    width: auto;
+    height: auto;
+    border: 5px solid #f00;
+    padding: 20px 40px;
+}
+
+.ilk-kutu{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-left: 0;
+}
+.ilk-kutu-alt > a{
+    display: none;
+}
+
+.ilk-kutu p, .ikinci-kutu p{
+    text-align: justify;
+}
+
+.ikinci-kutu{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 0;
+}
+
+.ilk-kutu-alt{
+    width: 90%;
+    float: 10%;
+}
+
+.ikinci-kutu-alt{
+    width: 90%;
+    padding-right: 10%;
+}
+
+a.google-link{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.google-link:hover{
+    color: #00f;
+    border: 1px solid #f00;
+    padding: 5px 10px;
+    background-color: #000;
+    border-radius: 10px;
+
+}

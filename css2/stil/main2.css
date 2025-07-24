@@ -1,0 +1,35 @@
+.multi-bg{
+    width: 1000px;
+    height: 800px;
+    border: 5px solid #000;
+    border-radius: 50px;
+    background-image: url(../resim/indir.jpeg), url(../resim/indir1.jpeg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: 50% , 50% ;
+}
+
+.ikinci{
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    padding-top: 100px;
+    transition: 1s ease-in;
+}
+
+.ikinci :hover{
+    background-color: #0f0;
+}
+
+
+.ikinci h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 10px 10px #999;
+    transition: .5s ease;
+}
+
+.ikinci h1:hover{
+    font-size: 50px;
+}
